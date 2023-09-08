@@ -1,6 +1,44 @@
-# Getting Started with Create React App
+# Task Manager App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+The Task Manager App is a full-stack web application for managing tasks. It's built using React.js and Redux.js for the frontend, Koa.js for the backend, and PostgreSQL as the database. The app offers user authentication, JWT token-based authorization, and various features for creating, listing, updating, and managing tasks.
+
+## Features
+
+- **User Authentication**: Users can sign up and sign in securely.
+- **JWT Token**: JSON Web Tokens are used for authentication and authorization.
+- **User Creation**: Registered users can create tasks.
+- **Protected Routes**: Certain routes are protected and accessible only for authenticated users.
+- **Task Management**: Users can create, view, update, and delete their tasks.
+- **Logout**: Provides an option for users to log out securely.
+- **Database**: PostgreSQL is used to store user accounts and tasks.
+
+## Technologies Used
+
+### Frontend
+
+- **React.js**: A JavaScript library for building user interfaces.
+- **Redux.js**: A state management library for managing application state.
+- **React Router**: For routing and navigation.
+- **Fetch**: A HTTP client for making API requests.
+
+### Backend
+
+- **Koa.js**: A lightweight web framework for Node.js.
+- **JSON Web Tokens (JWT)**: For secure authentication and authorization.
+- **PostgreSQL**: A relational database for storing user accounts and tasks.
+
+## Getting Started
+
+Follow these steps to set up and run the Task Manager App on your local machine:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/task-manager-app.git
+   cd task-manager-app
+
 
 ## Available Scripts
 
